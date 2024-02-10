@@ -19,7 +19,7 @@ else
 fi
 
 DOCKER_FILE="docker_${DOCKER_VERSION}_coreelec_${ARCH_TAR}_${DOCKER_DATE}.tar.gz" 
-DOCKER_URL="https://github.com/tamusiunas/docker-coreelec/releases/download/${DOCKER_TAG}/${DOCKER_FILE}"
+DOCKER_URL="https://github.com/saxoloman/docker-coreelec/releases/download/${DOCKER_TAG}/${DOCKER_FILE}"
 
 if [ -f "/storage/.kodi/addons/service.system.docker/bin/dockerd" ]; then
   echo ""
