@@ -19,7 +19,7 @@ This project provides structure to install the Docker version 22.06, latest (fet
 - Access the device via SSH
 
 ```bash
-curl https://github.com/saxoloman/docker-coreelec/releases/download/ > \
+curl https://raw.githubusercontent.com/saxoloman/docker-coreelec/sax/auto-install-docker-coreelec.bash > \
   auto-install-docker-coreelec.bash
 bash ./auto-install-docker-coreelec.bash
 ```
