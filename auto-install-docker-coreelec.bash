@@ -1,8 +1,8 @@
 #!/bin/bash
 
-DOCKER_TAG="v22.06.0"
-DOCKER_VERSION="v22.06.0-beta.0-167-gec89e7cde1.m"
-DOCKER_DATE="20220808205438"
+DOCKER_TAG="v3"
+DOCKER_VERSION="v25.00.3-beta.0-391-gb76a60dee6.m"
+DOCKER_DATE="220221114215321"
 
 arch_uname=$(uname -m)
 if [ -z "${arch_uname##*aarch64*}" ]; then
