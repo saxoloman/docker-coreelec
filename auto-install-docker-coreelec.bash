@@ -1,7 +1,7 @@
 #!/bin/bash
 
 DOCKER_TAG="v3"
-DOCKER_VERSION="v25.00.3-beta.0-391-gb76a60dee6.m"
+DOCKER_VERSION="v23.06.3-beta.0-391-gb76a60dee6.m"
 DOCKER_DATE="20221114215321"
 
 arch_uname=$(uname -m)
