@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 DOCKER_TAG="v3"
