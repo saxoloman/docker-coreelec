@@ -17,7 +17,7 @@ This project provides structure to install the Docker version 22.06, latest (fet
 
 - Enable ssh via Kodi / CoreELEC interface on the device
 - Access the device via SSH
-  FOR VERSION 23.06
+- FOR VERSION 23.06
 ```bash
 curl https://raw.githubusercontent.com/saxoloman/docker-coreelec/sax/auto-install-docker-coreelec.bash > \
   auto-install-docker-coreelec.bash
