@@ -1,3 +1,8 @@
+**There is a problem with dns resolver . docker is trying to resolve with ipv6 even tough host dont have ipv6 support and is disabled.
+this also happens with coreelec addon from official repo. Some mashines are affected and some are not....
+to fix this use custom nameservers like 1.1.1.1 or 8.8.8.8**
+
+
 # docker-coreelec
 Docker 22.06 for CoreELEC distro
 
@@ -17,13 +22,13 @@ This project provides structure to install the Docker version 22.06, latest (fet
 
 - Enable ssh via Kodi / CoreELEC interface on the device
 - Access the device via SSH
-- FOR VERSION 23.06
+- FOR VERSION 23.06 - **deleted. use v25**
 ```bash
 curl https://raw.githubusercontent.com/saxoloman/docker-coreelec/sax/auto-install-docker-coreelec.bash > \
   auto-install-docker-coreelec.bash
 bash ./auto-install-docker-coreelec.bash
 ```
-For version 25.xx experimental !!!!
+For version 25
 ```bash
 curl https://raw.githubusercontent.com/saxoloman/docker-coreelec/sax/auto-install-docker-coreelec1.bash > \
   auto-install-docker-coreelec1.bash
