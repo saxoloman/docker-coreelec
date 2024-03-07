@@ -1,8 +1,3 @@
-**There is a problem with dns resolver . docker is trying to resolve with ipv6 even tough host dont have ipv6 support and is disabled.
-this also happens with coreelec addon from official repo. Some mashines are affected and some are not....
-to fix this use custom nameservers like 1.1.1.1 or 8.8.8.8**
-
-
 # docker-coreelec
 Docker 22.06 for CoreELEC distro
 
