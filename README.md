@@ -24,7 +24,7 @@ curl https://raw.githubusercontent.com/saxoloman/docker-coreelec/sax/auto-instal
   auto-install-docker-coreelec1.bash
 bash ./auto-install-docker-coreelec1.bash
 ```
-- Test version**
+- For version 26**
 ```bash
 curl https://raw.githubusercontent.com/saxoloman/docker-coreelec/sax/auto-install-docker-coreelec.bash > \
   auto-install-docker-coreelec.bash
